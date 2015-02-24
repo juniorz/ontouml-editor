@@ -250,7 +250,9 @@
    <extension
          point="org.eclipse.xtext.builder.participant">
       <participant
-            class="br.ufes.inf.nemo.ontouml.ontoumlprime.ui.DslExecutableExtensionFactory:org.eclipse.xtext.builder.IXtextBuilderParticipant">
+            class="br.ufes.inf.nemo.ontouml.ontoumlprime.ui.DslExecutableExtensionFactory:org.eclipse.xtext.builder.IXtextBuilderParticipant"
+            fileExtensions="ouml"
+            >
       </participant>
    </extension>
    <extension
